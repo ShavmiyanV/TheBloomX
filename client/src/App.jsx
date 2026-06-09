@@ -1,9 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+
+
 function App() {
   return (
-    <h1 className="text-5xl font-bold text-red-500">
-      Tailwind Working
-    </h1>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
