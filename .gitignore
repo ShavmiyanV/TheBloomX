@@ -1,0 +1,20 @@
+# dependencies
+client/node_modules/
+server/node_modules/
+
+# env files
+client/.env
+server/.env
+
+# logs
+*.log
+
+# macOS
+.DS_Store
+
+# build
+client/dist/
+client/build/
+
+# uploads
+server/uploads/
